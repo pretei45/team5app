@@ -28,7 +28,7 @@ pipeline{
         }
         stage('6-scriptcontrol'){
             steps{
-                sh 'bash -x /var/lib/jenkins/workspace/team5App'
+                sh 'bash -x /var/lib/jenkins/workspace/team5App/script.sh'
             }
         }
 	}
