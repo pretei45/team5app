@@ -31,5 +31,10 @@ pipeline{
                 sh 'bash -x /var/lib/jenkins/workspace/team5App/script.sh'
             }
         }
+		stage('7-trial'){
+			steps{
+				echo "This a practice stage"
+			}
+		}
 	}
 }
